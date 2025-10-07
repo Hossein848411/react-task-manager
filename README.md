@@ -1,16 +1,76 @@
-# React + Vite
+# 📝 React Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+یک پروژه تمرینی ساده برای مدیریت تسک‌ها با **React** و **Vite**.
+این پروژه برای یادگیری و تمرین تیمی طراحی شده تا بتوانیم مفاهیم پایه‌ی React، مدیریت State و کار گروهی با **GitHub** را تمرین کنیم.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 ویژگی‌ها
 
-## React Compiler
+* ساخت، حذف و ویرایش تسک‌ها
+* فیلتر بر اساس وضعیت (انجام شده / در حال انجام)
+* ذخیره‌سازی داده‌ها در حافظه‌ی مرورگر (localStorage)
+* رابط کاربری ساده و واکنش‌گرا
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ تکنولوژی‌ها
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React 18+**
+* **Vite**
+* **JavaScript (ES6)**
+* **Bootstrap / Tailwind (اختیاری)**
+* **Git & GitHub**
+
+---
+
+## ⚙️ نحوه اجرا
+
+1. ابتدا مخزن را کلون کنید:
+
+   ```bash
+   git clone https://github.com/Hossein848411/react-task-manager.git
+   ```
+
+2. وارد پوشه‌ی پروژه شوید:
+
+   ```bash
+   cd react-task-manager
+   ```
+
+3. پکیج‌ها را نصب کنید:
+
+   ```bash
+   npm install
+   ```
+
+4. پروژه را اجرا کنید:
+
+   ```bash
+   npm run dev
+   ```
+
+5. سپس مرورگر را باز کرده و آدرس زیر را وارد کنید:
+
+   ```
+   http://localhost:5173
+   ```
+
+---
+
+## 👥 اعضای پروژه
+
+* Hossein (Project Lead)
+* [Aliyehasadiyan] (Collaborator)
+
+---
+
+## 📌 اهداف آموزشی
+
+* تمرین کار با **React hooks**
+* یادگیری کار تیمی با **Git و GitHub**
+* تسلط بر ساخت کامپوننت‌های قابل‌استفاده مجدد
+* آشنایی با ساختار پروژه‌های واقعی React
+
+---
+
